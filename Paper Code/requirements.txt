@@ -1,0 +1,23 @@
+# === Strictly aligned with paper experimental environment ===
+# Corresponding to: Python 3.9, PyTorch 1.13.1, CUDA 11.7
+torch==1.13.1
+torchvision==0.14.1
+
+# Numerical computation & data processing
+numpy>=1.21,<1.25
+pandas>=1.5,<2.1
+scipy>=1.9,<1.12
+
+# Image processing
+Pillow>=9.0,<10.0
+opencv-python>=4.5,<4.9
+
+# Signal processing (CWT)
+PyWavelets>=1.4,<1.6
+
+# Machine learning & evaluation
+scikit-learn>=1.1,<1.4
+
+# Visualization
+matplotlib>=3.5,<3.8
+seaborn>=0.12,<0.13
